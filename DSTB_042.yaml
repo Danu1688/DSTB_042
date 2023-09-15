@@ -1,0 +1,14 @@
+proxies:
+- name: Titi_DO_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2a96af83-9c3c-48ef-8141-702a29144b8d
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
