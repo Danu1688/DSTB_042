@@ -12,3 +12,17 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
+- name: Titi_DO_2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 60a45bb8-4601-427a-ba98-276df98f1973
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+      
