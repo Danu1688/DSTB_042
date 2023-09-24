@@ -1,4 +1,17 @@
 proxies:
+- name: TitiNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 5cb55ac3-02d6-499a-948f-377d1b417385
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Titi_DO_1
   type: trojan
   server: beacon.liveon.id
